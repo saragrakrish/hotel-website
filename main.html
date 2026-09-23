@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Antarang | Luxury Business Hotel</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <header class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="logo">ANTARANG</a>
+
+      <nav class="nav-links" id="navLinks">
+        <a href="#rooms">Rooms &amp; Suites</a>
+        <a href="#amenities">Amenities</a>
+        <a href="#offers">Offers</a>
+        <a href="#reviews">Reviews</a>
+        <a href="#footer">Contact</a>
+      </nav>
+
+      <a href="#rooms" class="btn-outline nav-cta">Book Your Stay</a>
+
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ===== VIDEO HERO ===== -->
+  <section class="video-hero">
+    <div class="video-hero-frame reveal">
+      <!-- Apna video URL yahan daal: src="APNA-LINK.mp4" -->
+      <video class="video-hero-bg" autoplay muted loop playsinsline>
+        <source src="resours/Untitled design (2).mp4" type="video/mp4">
+      </video>
+      <div class="video-hero-overlay"></div>
+      <pre class="video-hero-subtitle">Where Indian Heritage 
+        Meets Modern Elegance.</pre>
+      <h1 class="video-hero-title">Antarang</h1>
+    </div>
+  </section>
+
+  <!-- ===== ROOMS & SUITES ===== -->
+  <section class="rooms" id="rooms">
+    <h2 class="section-heading reveal">Rooms &amp; Suites</h2>
+
+    <div class="rooms-grid">
+
+      <article class="room-card reveal">
+        <img src="resours/bedroom.png" alt="Luxury Room" class="room-img">
+        <div class="room-info">
+          <div class="room-meta">
+            <span>Max 2 guests / 1<br>Queen or<br>2 Single Beds</span>
+            <span class="room-icons">&#128716;&#128716;&#128716;</span>
+          </div>
+          <h3 class="room-name">Luxury Room</h3>
+        </div>
+        <div class="room-footer">
+          <button class="book-now-btn" data-room="luxury">Book Now <span class="arrow">&#8594;</span></button>
+        </div>
+      </article>
+
+      <article class="room-card reveal">
+        <img src="resours/Deluxe.png" alt="Deluxe Room" class="room-img">
+        <div class="room-info">
+          <div class="room-meta">
+            <span>Max 2 guests / 1<br>Queen or<br>2 Single Beds</span>
+            <span class="room-icons">&#128716;&#128716;&#128716;</span>
+          </div>
+          <h3 class="room-name">Deluxe Room</h3>
+        </div>
+        <div class="room-footer">
+          <button class="book-now-btn" data-room="deluxe">Book Now <span class="arrow">&#8594;</span></button>
+        </div>
+      </article>
+
+      <article class="room-card reveal">
+        <img src="resours/studio.png" alt="Studio Suite" class="room-img">
+        <div class="room-info">
+          <div class="room-meta">
+            <span>Max 2 guests / 1<br>Queen or<br>1 King Bed</span>
+            <span class="room-icons">&#128716;&#128716;</span>
+          </div>
+          <h3 class="room-name">Studio Suite</h3>
+        </div>
+        <div class="room-footer">
+          <button class="book-now-btn" data-room="studio">Book Now <span class="arrow">&#8594;</span></button>
+        </div>
+      </article>
+
+      <article class="room-card reveal">
+        <img src="resours/Executive Suite.png" alt="Executive Suite" class="room-img">
+        <div class="room-info">
+          <div class="room-meta">
+            <span>Max 2 guests / 1<br>King Bed or<br>2 Single Beds</span>
+            <span class="room-icons">&#128716;&#128716;&#128716;</span>
+          </div>
+          <h3 class="room-name">Executive Suite</h3>
+        </div>
+        <div class="room-footer">
+          <button class="book-now-btn" data-room="executive">Book Now <span class="arrow">&#8594;</span></button>
+        </div>
+      </article>
+
+      <article class="room-card reveal">
+        <img src="resours/prmium.png" alt="Premier Suite" class="room-img">
+        <div class="room-info">
+          <div class="room-meta">
+            <span>Max 4 guests /<br>2 Queen Beds</span>
+            <span class="room-icons">&#128716;&#128716;</span>
+          </div>
+          <h3 class="room-name">Premier Suite</h3>
+        </div>
+        <div class="room-footer">
+          <button class="book-now-btn" data-room="premier">Book Now <span class="arrow">&#8594;</span></button>
+        </div>
+      </article>
+
+      <article class="room-card reveal">
+        <img src="resours/painthouse.png" alt="Penthouse Suite" class="room-img">
+        <div class="room-info">
+          <div class="room-meta">
+            <span>Max 4 guests /<br>2 King Beds</span>
+            <span class="room-icons">&#128716;&#128716;</span>
+          </div>
+          <h3 class="room-name">Penthouse Suite</h3>
+        </div>
+        <div class="room-footer">
+          <button class="book-now-btn" data-room="penthouse">Book Now <span class="arrow">&#8594;</span></button>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- ===== AMENITIES ===== -->
+  <section class="amenities" id="amenities">
+    <h2 class="section-heading light reveal">Amenities</h2>
+
+    <div class="amenities-grid">
+      <article class="amenity-card reveal">
+        <img src="resours/Aminites1 (1).png" alt="24/7 Concierge" class="amenity-img">
+        <h3 class="amenity-title">24/7 Concierge</h3>
+        <p class="amenity-text">Support your header with<br>a short one-liner</p>
+      </article>
+
+      <article class="amenity-card reveal">
+        <img src="resours/Aminites2.png" alt="Rooftop Lounge" class="amenity-img">
+        <h3 class="amenity-title">Rooftop Lounge</h3>
+        <p class="amenity-text">Support your header with<br>a short one-liner</p>
+      </article>
+
+      <article class="amenity-card reveal">
+        <img src="resours/Aminites1 (3).png" alt="Restaurant" class="amenity-img">
+        <h3 class="amenity-title">Restaurant</h3>
+        <p class="amenity-text">Support your header with<br>a short one-liner</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- ===== SPECIAL OFFERS ===== -->
+  <section class="offers" id="offers">
+    <h2 class="section-heading reveal">Special Offers</h2>
+
+    <div class="offers-grid">
+      <article class="offer-card reveal">
+        <img src="resours/DINE.png" alt="Dine &amp; Stay Package" class="offer-img">
+        <h3 class="offer-title">Dine &amp; Stay Package</h3>
+        <p class="offer-text">List your offers, promos, or special membership privileges and perks here to entice people to book your property.</p>
+      </article>
+
+      <article class="offer-card reveal">
+        <img src="resours/Citytour.png" alt="City Tour Package" class="offer-img">
+        <h3 class="offer-title">City Tour Package</h3>
+        <p class="offer-text">List your offers, promos, or special membership privileges and perks here to entice people to book your property.</p>
+      </article>
+
+      <article class="offer-card reveal">
+        <img src="resours/HOTEL & FLIGHT.png" alt="Hotel &amp; Flight Package" class="offer-img">
+        <h3 class="offer-title">Hotel &amp; Flight Package</h3>
+        <p class="offer-text">List your offers, promos, or special membership privileges and perks here to entice people to book your property.</p>
+      </article>
+
+      <article class="offer-card reveal">
+        <img src="resours/Copy of kincare (2).png" alt="Wellness Weekend" class="offer-img">
+        <h3 class="offer-title">Wellness Weekend</h3>
+        <p class="offer-text">List your offers, promos, or special membership privileges and perks here to entice people to book your property.</p>
+      </article>
+
+      <article class="offer-card reveal">
+        <img src="resours/milestone2.png" alt="Milestone Package" class="offer-img">
+        <h3 class="offer-title">Milestone Package</h3>
+        <p class="offer-text">List your offers, promos, or special membership privileges and perks here to entice people to book your property.</p>
+      </article>
+
+      <article class="offer-card reveal">
+        <img src="resours/buisness2.png" alt="Business Trip Special" class="offer-img">
+        <h3 class="offer-title">Business Trip Special</h3>
+        <p class="offer-text">List your offers, promos, or special membership privileges and perks here to entice people to book your property.</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- ===== TESTIMONIALS ===== -->
+  <section class="testimonials" id="reviews">
+    <h2 class="section-heading light reveal">
+      What Our<br>Guests Say
+    </h2>
+
+    <div class="testimonials-grid">
+      <blockquote class="testimonial-card reveal">
+        <p>"Our stay at Antarang felt effortless from check-in to check-out. The rooftop lounge view alone is worth coming back for."</p>
+        <cite>— Aditi Rao</cite>
+      </blockquote>
+
+      <blockquote class="testimonial-card reveal">
+        <p>"Quiet, comfortable, and exactly what a business trip needs. The concierge team sorted everything without being asked twice."</p>
+        <cite>— Rohan Mehta</cite>
+      </blockquote>
+
+      <blockquote class="testimonial-card reveal">
+        <p>"Booked the Executive Suite for an anniversary weekend — the room, the service, the breakfast, all felt genuinely premium."</p>
+        <cite>— Sana Khan</cite>
+      </blockquote>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="site-footer" id="footer">
+    <img src="resours/footer.png" alt="Antarang lobby" class="footer-bg">
+    <div class="footer-overlay"></div>
+
+    <div class="footer-content">
+      <span class="footer-brand">Bespoke<br>Hospitality</span>
+
+      <div class="footer-divider"></div>
+
+      <div class="footer-columns">
+        <div class="footer-col">
+          <h4>Location</h4>
+          <p>21 Marine Drive, Grand City</p>
+          <p>Tel: +91 98765 43210</p>
+          <p>hello@antarang.com</p>
+        </div>
+
+        <div class="footer-col">
+          <h4>Business Hours</h4>
+          <p>Monday: 24 Hours</p>
+          <p>Tuesday: 24 Hours</p>
+          <p>Wednesday: 24 Hours</p>
+          <p>Thursday: 24 Hours</p>
+          <p>Friday: 24 Hours</p>
+        </div>
+
+        <div class="footer-col">
+          <h4>Get Social</h4>
+          <div class="footer-socials">
+            <a href="#" aria-label="Instagram">&#9679;</a>
+            <a href="#" aria-label="Facebook">&#9679;</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ===== BOOKING MODAL ===== -->
+  <div class="booking-overlay" id="bookingOverlay">
+    <div class="booking-card" id="bookingCard">
+      <button class="booking-close" id="bookingClose" aria-label="Close">&times;</button>
+
+      <h3 class="booking-heading">Reserve Your Stay</h3>
+
+      <!-- STEP 1: DATES -->
+      <div class="booking-step" id="stepDates">
+        <label class="booking-label">Check-in
+          <input type="date" id="checkinInput" class="booking-input">
+        </label>
+        <label class="booking-label">Check-out
+          <input type="date" id="checkoutInput" class="booking-input">
+        </label>
+        <p class="booking-hint" id="dateHint">Select both dates to see available rooms.</p>
+      </div>
+
+      <!-- STEP 2: ROOM LIST -->
+      <div class="booking-step" id="stepRooms" style="display:none;">
+        <h4 class="booking-subheading">Available Rooms</h4>
+        <div class="booking-room-list" id="roomList"></div>
+      </div>
+
+      <!-- STEP 3: CONFIRM + PAYMENT -->
+      <div class="booking-step" id="stepConfirm" style="display:none;">
+        <h4 class="booking-subheading">Booking Summary</h4>
+        <div class="booking-summary" id="bookingSummary"></div>
+
+        <p class="booking-label" style="margin-top:18px;">Payment Method</p>
+        <div class="payment-options">
+          <label class="payment-option">
+            <input type="radio" name="payment" value="upi" checked> UPI
+          </label>
+          <label class="payment-option">
+            <input type="radio" name="payment" value="cash"> Cash at Hotel
+          </label>
+        </div>
+
+        <button class="btn-outline booking-confirm-btn" id="confirmBookingBtn">Confirm Booking</button>
+      </div>
+
+      <!-- STEP 4: SUCCESS -->
+      <div class="booking-step" id="stepSuccess" style="display:none;">
+        <p class="booking-success-msg" id="successMsg"></p>
+        <button class="btn-outline" id="doneBtn">Done</button>
+      </div>
+
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
